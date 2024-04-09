@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: bisque;
+}
+
+.image-container {
+    margin-top: 20px;
+    max-width: 800px; /* Adjust the maximum width of the container */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-container img {
+    margin-bottom: 10px;
+    width: 100%; /* Set the width to 100% to maintain aspect ratio */
+    height: auto;
+    transition: filter 0.3s ease;
+}
+
+.image-container img:hover {
+    filter: none;
+}
+
+/* Additional styles for filtered duplicates */
+.filtered-img {
+    margin-top: 10px;
+}
+
+.filtered-img img {
+    filter:brightness(0.5) contrast(1.5) saturate(200%) hue-rotate(90deg) drop-shadow(5px 5px 5px rgba(194, 22, 22, 0.5));
+}
