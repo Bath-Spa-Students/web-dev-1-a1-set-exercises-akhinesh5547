@@ -1,0 +1,25 @@
+/* Set the display property of the body element to grid and place the content in the center */
+body{
+    display: grid;
+    place-content: center;
+    /* Set the background image of the body element to a gas station and make it cover the whole screen */
+    background-image: url(GRNLMNDVQRCOJKVU5HPTE7NHTU.jpg);
+    max-width: auto;
+    background-size: cover;
+}
+
+/* Add margin and styling to the form element */
+form{
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(95, 37, 4, 0.842);
+    padding: 70px;
+    background-color: blue;
+}
+
+/* Center the button horizontally */
+button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
